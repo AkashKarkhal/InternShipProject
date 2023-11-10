@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#494848"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Temprature Converter"
+        android:textSize="33dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/Temp"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Temp"
+        android:backgroundTint="@color/black"
+        android:layout_centerHorizontal="true"
+        android:text="Celsius to Fehrenheit"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:id="@+id/CF"
+        android:layout_margin="30dp"/>
+
+    <Button
+        android:id="@+id/CK"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/CF"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
+        android:backgroundTint="@color/black"
+        android:text=" Celsius to Kelvin"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/CK"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/black"
+        android:layout_margin="30dp"
+        android:id="@+id/FK"
+        android:text=" Fehrenheit to Kelvin"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/FK"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/black"
+        android:layout_margin="30dp"
+        android:id="@+id/KF"
+        android:text=" Kelvin to Fehrenheit"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>
